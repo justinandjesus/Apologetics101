@@ -1,0 +1,251 @@
+<!--			
+        
+        Forms to fill in - Title, picture, and content
+        get from backend and post on articles page
+        figure out comments on all posts
+        maybe user login?
+        
+        
+        
+        -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta charset="UTF-8"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous"> -->
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
+    <!-- <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script> -->
+
+</head>
+<body class="index">
+   
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="loading-animation">&nbsp;</div>
+    </div>
+    <!-- /Preloader -->
+
+    <header>
+            <div class="navbar navbar-inverse"> <!--could be navbar-fixed-top-->
+                <div class="container">
+                    <div class="navbar-header">
+                    
+                        <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+                        
+                        <div class="ham">
+                        <span class="burg"></span>
+                        <span class="burg"></span>
+                        <span class="burg"></span>
+                        <span class="burg"></span>
+                        <span class="burg"></span>
+                        <span class="burg"></span>
+                        </div>
+                        </button>
+                        
+                        <a href="#" class="navbar-brand">Apologetics 101</a>
+                    
+                        
+                        
+                    </div>
+
+                    <div class="collapse navbar-collapse navHeaderCollapse ">
+                        <ul class="nav navbar-nav navbar-right">
+
+                            <li class="current hoverok"><a href="index.html">Home</a></li>
+
+                            <li class="dropdown hoverok">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-header"><a href="arguments.html"><span class="fa fa-caret-down"></span> Arguments for the Existence of God</a></li>
+                                        <li><a href="cosmos.html" class="submenu">Cosmological Argument</a></li>
+                                        <li><a href="moral.html" class="submenu">Moral Argument</a></li>
+                                    <li class="divider"></li>
+                                    <li class="dropdown-header"><a href="#"><span class="fa fa-caret-down"></span> Exclusivity of Christianity</a></li>
+                                        <li><a href="resurrection.html" class="submenu">The Resurrection Argument</a></li>
+                                    <li class="divider"></li>
+                                    <li class="dropdown-header"><a href="#">Objections and Doubts</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="hoverok"><a href="about.html">About</a></li>
+
+                            <li class="hoverok"><a href="contact.html">Contact</a></li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+    </header>
+
+
+    <section id="showcase">
+        <div class="container">
+            <h1 id="haha">Apologetics 101</h1>
+            <p class="align-middle">Defend the faith once delivered unto the saints (Jude 3)</p>
+<!--
+            <table class="table table-bordered table-inverse">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Name</th>
+                  <th>Gender</th>
+                  <th>Company</th>
+                  <th>Balance</th>
+                  <th>Contact</th>
+                </tr>
+            </thead>
+              <tbody class="addHere"></tbody>
+
+          </table>
+-->
+        </div>
+    </section>
+
+
+    <div id="sec1">
+        <div class="container-fluid">
+            <h1>Does <span class="high">God</span> Exist?</h1>
+            <div class="col-md-12 innersec1">
+                <div class="col-md-12"><div><hr class="rule"></div></div>
+                <p class="col-md-4 text-center wow fadeInRight" data-wow-duration="1.5s"><i class="glyphicon glyphicon-fire"></i> <br> Has Science disproven God? </p>
+                <p class="col-md-4 text-center wow fadeIn" data-wow-duration="2s"><i class="glyphicon glyphicon-sunglasses"></i> <br> Is there any evidence for the existence of God? </p>
+                <p class="col-md-4 text-center wow fadeInLeft" data-wow-duration="1.5s"><i class="glyphicon glyphicon-user"></i> <br> Did God create man or <br>did man create God?</p>
+                <a href="arguments.html" class="btn btn-primary btn-lg">Learn More</a>
+            </div>
+
+        </div>
+    </div>
+    
+    <div class="secNew">
+        
+    </div>
+
+<div class="clearfix"></div>
+
+    <div id="outer">
+    	<div class="inner">
+    		<h1>The Four <span class="high">Fundamental</span> Questions of Life</h1>
+            <div class="col-md-12 innersec">
+        		<div class="col-md-6 text-center Q"><p><i class="glyphicon glyphicon-globe"></i>  Origin: Where did I come from?</p></div>
+                <div class="col-md-6 text-center Q"><p><i class="glyphicon glyphicon-road"></i>  Meaning: Is there any objective meaning to life?</p></div>
+                <div class="col-md-2 col-md-offset-2 text-center line"><hr></div>
+                <div class="col-md-2 col-md-offset-4 text-center line"><hr></div>
+                <div class="col-md-6 text-center Q"><p><i class="glyphicon glyphicon-ok"></i>  Morality: Is there any objective right and wrong?</p></div>
+                <div class="col-md-6 text-center Q"><p><i class="fa fa-id-card-o"></i>  Destiny: What happens when I die?</p></div>
+            </div>
+        </div>
+    </div>
+<div class="clearfix"></div>
+    <section id="sec2">
+        <div class="container">
+            <h1>Did <span class="high">Jesus</span> really rise from the <span class="high">dead</span>?</h1>
+            <div class="col-md-12 innersec2">
+                <div class="col-md-12"><div><hr class="rule"></div></div>
+                <p class="col-md-4 text-center wow zoomInLeft" data-wow-duration="1s"><i class="glyphicon glyphicon-question-sign"></i> <br> In this modern scientific age,<br> are Miracles possible? </p>
+                <p class="col-md-4 text-center wow zoomIn" data-wow-duration="1.5s"><i class="glyphicon glyphicon-trash"></i> <br> Is the Resurrection of Jesus <br> just a recycled pagan myth? </p>
+                <p class="col-md-4 text-center wow zoomInRight" data-wow-duration="1s"><i class="glyphicon glyphicon-refresh"></i> <br> What difference does it make <br> if he did rise from the dead?</p>
+                <a href="resurrection.html" class="btn btn-primary btn-lg">Learn More</a>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>Logo, Copyright &copy; 2017</p>
+    </footer>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>new WOW().init(); </script>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <!-- <script>
+
+
+    $(function(){
+        var $addHere=$('#addHere');
+        var x="<li>Point 1</li><li>Point 2</li><li>Point 3</li>";
+
+        $.ajax({
+            type:'GET',
+            url:'http://www.json-generator.com/api/json/get/craDEvyPtu?indent=2',
+            success: function(data){
+                $.each(data, function(i,item){
+                    $addHere.append('<li>'+ item.name + ' has a balance of ' + item.balance + ' </li>');
+                    $addHere.append('<p> He has '+ item.friends.length+' friends who are: ');
+                    $.each(item.friends, function(j, friend){
+                        $addHere.append(friend.name+',')
+                    })
+                    $addHere.append('</p>')
+                })
+            }
+
+            error: alert('Error! Try again later!');
+        });
+
+
+    });
+
+
+    </script> -->
+
+
+<!--
+    <script>
+
+
+    $(function(){
+        var $addHere=$('.addHere');
+
+        $.ajax({
+            type:'GET',
+            url:'http://www.json-generator.com/api/json/get/bVltINXUWG?indent=2',
+            success: function(data){
+                var x='';
+                $.each(data, function(i,item){
+                    // $addHere.append('HAHAHHA');
+                    x+='<tr>';
+                    x+='<td>'+ item.index + '</td>';
+                    x+='<td>'+ item.name + '</td>';
+                    x+='<td>'+ item.gender + '</td>';
+                    x+='<td>'+ item.company + '</td>';
+                    x+='<td>'+ item.balance + '</td>';
+                    x+='<td>'+ item.phone + '</td>';
+                    x+='</tr>';
+
+
+                })
+                $addHere.append(x);
+            }
+
+            // error: alert('Error! Try again later!');
+        });
+
+
+    });
+
+
+    </script>
+-->
+
+
+</body>
+</html>

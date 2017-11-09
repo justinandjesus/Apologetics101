@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta charset="UTF-8">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Us</title>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous"> -->
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+
+    <!-- <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script> -->
+
+</head>
+<body class="contact">
+
+       <header>
+            <div class="navbar navbar-inverse navbar-static-top"> <!--could be navbar-fixed-top-->
+                <div class="container">
+                    <div class="navbar-header">
+                        <a href="#" class="navbar-brand">Apologetics 101</a>
+                        <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+        					<span class="icon-bar"></span>
+        					<span class="icon-bar"></span>
+        					<span class="icon-bar"></span>
+        				</button>
+                    </div>
+
+                    <div class="collapse navbar-collapse navHeaderCollapse ">
+                        <ul class="nav navbar-nav navbar-right">
+
+                            <li class="current hoverok"><a href="index.html">Home</a></li>
+
+                            <li class="dropdown hoverok">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-header"><a href=""><span class="fa fa-caret-down"></span> Arguments for the Existence of God</a></li>
+                                        <li><a href="cosmos.html" class="submenu">Cosmological Argument</a></li>
+                                        <li><a href="moral.html" class="submenu">Moral Argument</a></li>
+                                    <li class="divider"></li>
+                                    <li class="dropdown-header"><a href="#"><span class="fa fa-caret-down"></span> Exclusivity of Christianity</a></li>
+                                        <li><a href="resurrection.html" class="submenu">The Resurrection Argument</a></li>
+                                    <li class="divider"></li>
+                                    <li class="dropdown-header"><a href="#">Objections and Doubts</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="hoverok"><a href="about.html">About</a></li>
+
+                            <li class="hoverok"><a href="contact.html">Contact</a></li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+    </header>
+    
+<!-- Banner -->
+    <div class="col-md-12 banner">
+        <div><h3>Home / Contact</h3></div>
+    </div>
+<!-- End Banner -->
+
+    <section class="contact formSection col-md-12 about text-center">
+        <h1>GET IN TOUCH WITH US!</h1>
+        <div class="row">
+        <div class="col-md-4 col-md-offset-1 col-sm-12">
+            <form action="send.php" method="POST">
+                <div class="form-group">
+                    <label>Name</label>
+                    <input type="name" name="name" class="form-control" placeholder="Enter name">
+                </div>
+
+                <div class="form-group">
+                    <label>Email address</label>
+                    <input type="email" name="email" class="form-control" placeholder="Enter email" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Subject</label>
+                    <input type="text" name="subject" class="form-control" placeholder="Enter subject">
+                </div>
+        </div>
+        <div class="col-md-4 col-md-offset-2 col-sm-12">
+                <div class="form-group">
+                    <label>Question/Comment</label>
+                    <textarea class="form-control" name="message" rows="10" placeholder="Enter your questions/comments" required></textarea>
+                </div>
+        </div>
+        <div class="clearfix contact distinguisher"></div>
+                <button class="btn btn-default myButton" onClick="alert('We will get back to you shortly!')" type="submit" name="submit" value="submit">
+                    <span>SUBMIT</span>
+                    <i class="fa fa-circle-o-notch fa-spin"></i>
+                </button>
+            </form>
+
+
+        </div>
+    </section>
+
+
+    <footer>
+        <p>Logo, Copyright &copy; 2017</p>
+    </footer>
+
+
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+        <script>new WOW().init(); </script>
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/main.js"></script>
+        
+        <script>
+            $(document).ready(function(){
+              $('.dropdown-submenu a.test').on("click", function(e){
+                $(this).next('ul').toggle();
+                e.stopPropagation();
+                e.preventDefault();
+              });
+            });
+        </script>
+
+    </body>
+    </html>
